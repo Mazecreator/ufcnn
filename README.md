@@ -25,9 +25,9 @@ Dependencies
 ------------
 During the development the following setup was used:
 
-- Python 3.5.1
 - numpy 1.11.0
 - tensorflow built from the latest source
+- Should work in Python 2 and 3
 
 Example
 -------
@@ -77,12 +77,13 @@ print("{:^7}{:^7.2f}".format(n_epochs , mse))
 
 Output:
 ```
- Epoch  Loss
-   0    33.38
-   5    28.87
-  10    18.68
-  15    9.98
-  20    6.79
+ Epoch  Loss  
+   0    51.32 
+   5    23.35 
+  10    20.45 
+  15    14.08 
+  20    8.97  
+
 ```
 We see that the optimizer progresses reasonably fast and we can expect some
 predicting power if we train the network long enough.
